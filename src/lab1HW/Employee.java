@@ -1,6 +1,5 @@
 package lab1HW;
 
-import common.*;
 import java.util.*;
 
 public class Employee {
@@ -63,7 +62,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" + "lastName=" + lastName + ", firstName=" + firstName + ", ssn=" + ssn + '}';
+        return firstName + " " + lastName + " - SSN: " + ssn;
     }
     
     
